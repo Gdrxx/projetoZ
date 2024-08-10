@@ -1,10 +1,9 @@
 body {
     font-family: "LilitaOne-Regular", sans-serif;
-
     max-width: 1280px;
     margin: 0;
     padding: 0;
-  background-image :url('./imagens/7-dragon-balls-hd-wallpaper-uhdpaper.com-452@0@h.jpg'); 
+    background-image :url('./imagens/7-dragon-balls-hd-wallpaper-uhdpaper.com-452@0@h.jpg'); 
     background-size: cover;
     /* Faz com que a imagem cubra toda a tela */
     background-position: center;
@@ -18,6 +17,15 @@ body {
 
 
 }
+
+  @media (min-width:768px) and (min-width:1280px){
+    body{
+      font-size: 14px;
+      margin: 10px;
+    }
+  }
+
+
 
 @font-face {
     font-family: "LilitaOne-Regular";
