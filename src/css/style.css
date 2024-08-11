@@ -3,7 +3,7 @@ body {
     max-width: 1280px;
     margin: 0;
     padding: 0;
-    background-image :url('./imagens/7-dragon-balls-hd-wallpaper-uhdpaper.com-452@0@h.jpg'); 
+    background-image :url('./imagens/Dragon_Ball_Z_HD_Wallpapers_Free_Download\ \(1\).jfif'); 
     background-size: cover;
     /* Faz com que a imagem cubra toda a tela */
     background-position: center;
@@ -21,7 +21,7 @@ body {
   @media (min-width:768px) and (min-width:1280px){
     body{
       font-size: 14px;
-      margin: 10px;
+      margin: 10PX;
     }
   }
 
@@ -116,16 +116,19 @@ h1{
 }
 
 h2 {
-    color: blue;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80%;
-    margin-left: 50px;
-}
+    left: 100px;
+    position: relative;
+    top: -40px; /* Ajuste o valor conforme necessário */
+  }
 
-button {
+
+/* button {
     color: aqua;
     margin-left: 50px;
-}
+} */
 
 .listinhas {
     margin-left: 50px;
@@ -135,11 +138,24 @@ button {
 
 footer {
     text-align: center;
-    padding: 20px 0;
+  
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+p{
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -100%;
+  width: 15%; /* largura */
+  list-style: none;
+  height: 30px; /* altura */
+  margin-top: -25px;
+  left: 4%;  
+}
+ 
+
 
 
 .foto.ativa {
@@ -151,9 +167,8 @@ span{
     font-size: 30px;
 }
 
- header .xv button{
-   
-    color: rgb(255, 255, 255);
+.xv button{
+  color: rgb(0, 0, 0);
     transition: .2s;
     padding: 10px 16px;
     font-size: 13px;
@@ -163,26 +178,33 @@ span{
     font-weight: 100;
     background-color: transparent;
     text-decoration: underline;
-    text-decoration-color: rgb(255, 238, 0);
+    text-decoration-color: rgb(255, 0, 0);
     margin: auto;
-    box-shadow: 0px 0px 8px white;
-   
-        position: absolute; /* ou absolute, dependendo do contexto */
-        top: 350px; /* Ajuste o valor conforme necessário */
-        margin-left: 4.5%;
-      
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    position: absolute; /* ou absolute, dependendo do contexto */
+    top: 350px; /* Ajuste o valor conforme necessário */
+    margin-left: 4.5%; 
+    left: 15px; 
+    
 
 
 }
 
-header button:hover{
-   color: white;
+ button:hover{
+   color: rgb(255, 0, 0);
     transform: scale(1.1)
 }
 
 .kakaroto img{
    position: relative;
    animation: voar 2s ease-in-out infinite alternate;
+margin: 4%;
+right: 10%;
+border-radius: 20px;
+max-height: 100px;
+border: 0;
+left: .05px;
+
 }
 
 @keyframes voar{
